@@ -78,6 +78,7 @@ public class Guitarra {
                 "elétrica", "mogno", 1500);
         //testando os dados da classe, imprimindo a saída simples no terminal
         System.out.println(minhaGuitarra.getNumeroSerie());
+        System.out.println(minhaGuitarra.getmodelo());
         System.out.println(minhaGuitarra.getMadeira());
         System.out.println(minhaGuitarra.getPreco());
         System.out.println(minhaGuitarra.getTipo());

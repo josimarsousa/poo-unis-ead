@@ -5,10 +5,10 @@ package unidade_1;
  * @author jo
  */
 public class Guitarra {
-
+    //variaveis  do construtor
     private String numeroSerie, fabricante, modelo, tipo, madeira;
     private double preco;
-
+    //construtor
     public Guitarra(
             String numeroSerie, String fabricante,
             String modelo, String tipo,
@@ -20,7 +20,7 @@ public class Guitarra {
         this.madeira = madeira;
         this.preco = preco;
     }
-
+    //metodos gets and seters
     public String getNumeroSerie() {
         return numeroSerie;
     }
@@ -69,14 +69,14 @@ public class Guitarra {
         this.preco = preco;
     }
 
-    //mÈtodo main È o mÈtodo principal da classe
+    //m√©todo main √© o m√©todo principal da classe
     public static void main(String[] args) {
-        //instanciamos um objeto chamado "minha guitarra" que ser· do tipo "Guitarra"
-        //Os valores passados s„o usados pelo construtor  da classe para criar o 
+        //instanciamos um objeto chamado "minha guitarra" que ser√° do tipo "Guitarra"
+        //Os valores passados s√£o usados pelo construtor  da classe para criar o 
         //objeto.
         Guitarra minhaGuitarra = new Guitarra("01020304", "fender", "telecaster",
-                "elÈtrica", "mogno", 1500);
-        //testando os dados da classe, imprimindo a saÌda simples no terminal
+                "el√©trica", "mogno", 1500);
+        //testando os dados da classe, imprimindo a sa√≠da simples no terminal
         System.out.println(minhaGuitarra.getNumeroSerie());
         System.out.println(minhaGuitarra.getMadeira());
         System.out.println(minhaGuitarra.getPreco());
